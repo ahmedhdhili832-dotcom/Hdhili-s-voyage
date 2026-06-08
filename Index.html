@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hdhili's Travel Agency</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#f8fafc;
+    color:#1e293b;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero{
+    max-width:800px;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:1.3rem;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 30px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    margin:5px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.title h2{
+    font-size:2.5rem;
+    color:#0f172a;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#2563eb;
+}
+
+.destinations{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.destination{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.destination img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.destination h3{
+    padding:15px;
+}
+
+.contact{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+}
+
+footer{
+    background:#020617;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="hero">
+        <h1>✈️ Hdhili's Travel Agency</h1>
+        <p>
+            Discover the world with comfort, safety and unforgettable experiences.
+        </p>
+
+        <a href="#destinations" class="btn">Explore Destinations</a>
+        <a href="#contact" class="btn">Contact Us</a>
+    </div>
+</header>
+
+<section>
+    <div class="title">
+        <h2>Our Services</h2>
+    </div>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>🌍 International Travel</h3>
+            <p>Flights, hotels and complete travel packages worldwide.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏨 Hotel Booking</h3>
+            <p>Best hotel deals at competitive prices.</p>
+        </div>
+
+        <div class="card">
+            <h3>🛂 Visa Assistance</h3>
+            <p>Support for visa applications and travel documents.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚗 Transport Services</h3>
+            <p>Airport transfers and transportation solutions.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="destinations">
+    <div class="title">
+        <h2>Popular Destinations</h2>
+    </div>
+
+    <div class="destinations">
+
+        <div class="destination">
+            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c" alt="Dubai">
+            <h3>🇦🇪 Dubai</h3>
+        </div>
+
+        <div class="destination">
+            <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a" alt="Paris">
+            <h3>🇫🇷 Paris</h3>
+        </div>
+
+        <div class="destination">
+            <img src="https://images.unsplash.com/photo-1548013146-72479768bada" alt="Istanbul">
+            <h3>🇹🇷 Istanbul</h3>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <br>
+
+    <p>📞 +216 20 021 903</p>
+    <p>📧 ahdhili832@gmail.com</p>
+    <p>📍 Tunisia</p>
+
+    <br>
+
+    <a class="btn" href="https://wa.me/21620021903">
+        WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Hdhili's Travel Agency. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
