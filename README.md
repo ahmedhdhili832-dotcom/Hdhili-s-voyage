@@ -71,7 +71,22 @@ Hdhili-s-voyage/
 
 ## 📸 Screenshots
 
- 
+ 🏠 Home Page
+
+<p align="center"> <img src="images/screenshots/home.png" alt="Home Page" width="900"> </p>
+
+🌍 Destinations
+
+<p align="center"> <img src="images/screenshots/destinations.png" alt="Destinations" width="900"> </p>
+
+🕌 Umrah & Hajj
+
+<p align="center"> <img src="images/screenshots/umrah-hajj.png" alt="Umrah & Hajj" width="900"> </p>
+
+🏨 Services
+
+<p align="center"> <img src="images/screenshots/services.png" alt="Services" width="900"> </p>
+
 ---
 
 ## 📈 Future Improvements
